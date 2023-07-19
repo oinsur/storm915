@@ -23,7 +23,7 @@ body {
 
 .page {
     width: 100%;
-    background-image: url(/assets/storm-logo_animated.gif);
+    background-image: url(./assets/storm-logo_animated.gif);
     background-repeat: no-repeat;
     background-position: top ;
     background-size: 100%;
