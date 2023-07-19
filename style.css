@@ -1,3 +1,6 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Martel+Sans:wght@700&family=Yrsa:wght@600;700&display=swap');
+
 :root {
     display: flex;
     justify-content: center;
@@ -15,14 +18,47 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #5D074E;
+    font-family: 'Yrsa', serif;
 }
 
 .page {
     width: 100%;
+    background-image: url(/assets/storm-logo_animated.gif);
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-img {
-    width: 100%;
+button {
+    width: 20%;
+    background-color: #9e9e9ec9;
+    opacity: 0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 2% 0%;
+    font-size: 3rem;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    animation: fade 2s 1s linear forwards;
+    transition: .5s;
+    cursor: pointer;
 }
 
-/* logo animation */
+button:hover {
+    box-shadow: 2px 2px 20px;
+}
+
+/* button animation */
+@keyframes fade {
+    from {
+        opacity: o;
+    }
+    to {
+        opacity: 1;
+    }
+}
