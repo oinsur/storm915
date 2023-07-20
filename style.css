@@ -21,16 +21,23 @@ body {
     font-family: 'Yrsa', serif;
 }
 
-.page {
+.page, .storm {
     width: 100%;
-    background-image: url(./assets/storm-logo_animated.gif);
-    background-repeat: no-repeat;
-    background-position: top ;
-    background-size: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.page {
+    background-image: url(./assets/storm-logo_animated.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-size: 100%;
+}
+
+.storm {
+    flex-direction: column;
 }
 
 button {
