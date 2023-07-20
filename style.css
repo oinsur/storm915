@@ -19,6 +19,7 @@ body {
     min-height: 100vh;
     background-color: #5D074E;
     font-family: 'Yrsa', serif;
+    color: white;
 }
 
 .page, .storm {
@@ -32,12 +33,14 @@ body {
 .page {
     background-image: url(./assets/storm-logo_animated.gif);
     background-repeat: no-repeat;
-    background-position: 100% 10%;
+    background-position: 100% 20%;
     background-size: 100%;
 }
 
 .storm {
     flex-direction: column;
+    justify-content: flex-start;
+    padding: 5% 10%;
 }
 
 button {
@@ -68,4 +71,72 @@ button:hover {
     to {
         opacity: 1;
     }
+}
+
+h1 {
+    font-family: Asap, sans-serif;
+    font-size: 4.5rem;
+    letter-spacing: 0.4rem;
+}
+
+.thundering {
+    font-family: Asap, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.15rem;
+}
+
+.about {
+    position: relative;
+    margin: 5% 0;
+
+}
+
+h2 {
+    text-shadow: 3px 3px #F6735F;
+    font-size: 2rem;
+    font-family: 'Asap', sans-serif;
+}
+
+.desc {
+    z-index: 1;
+    margin: 2% 0;
+    width: 60%;
+    background-color: #F6735F;
+    padding: 2%;
+    align-self: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.desc p {
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+p {
+    z-index: 1;
+}
+
+p span {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+i {
+    z-index: 0;
+    color: #5d074e27;
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    font-size: 9rem;
+    z-index: 0;
+}
+
+desc img {
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    right: 0%;
 }
