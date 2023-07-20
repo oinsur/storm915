@@ -17,7 +17,8 @@ body {
     min-width: 320px;
     width: 100%;
     min-height: 100vh;
-    background-color: #5D074E;
+    /* background-color: #5D074E; */
+    background-color: #90147b;
     font-family: 'Yrsa', serif;
     color: white;
 }
@@ -88,6 +89,7 @@ h1 {
 }
 
 .about {
+    width: 100%;
     position: relative;
     margin: 5% 0;
 
@@ -112,12 +114,11 @@ h2 {
 
 .desc p {
     font-family: 'Yrsa', serif;
-    font-size: 1.35rem;
     line-height: 1.5;
 }
 
 p {
-    z-index: 1;
+    font-size: 1.35rem;
 }
 
 p span {
@@ -162,4 +163,53 @@ i {
     top: -10%;
     width: 50%;
     box-shadow: -10px 10px white;
+}
+
+.giving-back {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 45%;
+    height: 50%;
+    background-color: #9CFFFA;
+    color: black;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card:last-of-type {
+    width: 100%;
+    margin: 4% 0;
+}
+
+.card img {
+    width: 80%;
+    /* position: absolute;
+    bottom: 0;
+    right: 10%; */
+    filter: opacity(0.4);
+}
+
+.card:last-of-type img:last-of-type {
+    width: 50%;
+}
+
+.card p {
+    z-index: 1;
 }
