@@ -25,7 +25,7 @@ body {
 
 .page, .storm {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,21 +136,24 @@ i {
     z-index: 0;
 }
 
-.about img {
-    width: 50%;
-    position: absolute;
-    top: 70%;
-    right: 0%;
-    box-shadow: -10px 10px #9CFFFA;
-}
 
-.impact {
-    position: relative;
+.about, .impact {
+    /* position: relative; */
     width: 100%;
     height: 100%;
-    margin-top: 20%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
+}
+
+.about img {
+    width: 50%;
+    /* position: absolute;
+    top: 70%;
+    right: 0%; */
+    box-shadow: -10px 10px #9CFFFA;
+    align-self: flex-end;
+    z-index: 1;
 }
 
 .impact img {
@@ -181,9 +184,8 @@ i {
 }
 
 .card {
-    position: relative;
     width: 45%;
-    height: 50%;
+    height: 500px;
     background-color: #9CFFFA;
     color: black;
     padding: 2%;
@@ -191,6 +193,7 @@ i {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    box-shadow: -10px 10px #F6735F;
 }
 
 .card:last-of-type {
@@ -200,16 +203,30 @@ i {
 
 .card img {
     width: 80%;
-    /* position: absolute;
-    bottom: 0;
-    right: 10%; */
     filter: opacity(0.4);
+    transition: .5s;
 }
 
+.card img:hover {
+    filter:opacity(1);
+}
 .card:last-of-type img:last-of-type {
     width: 50%;
 }
 
 .card p {
     z-index: 1;
+}
+
+.experience {
+    width: 100%;
+    background-color: #F6735F;
+    padding: 2%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px white;
+}
+
+.experience i {
+    right: 10%;
 }
