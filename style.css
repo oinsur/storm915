@@ -42,6 +42,7 @@ body {
 
 .storm {
     width: 90%;
+    max-width: 1440px;
     margin: 8%;
     background-color: #a70f8d;
     border-radius: 50px;
