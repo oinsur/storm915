@@ -44,7 +44,9 @@ body {
     width: 90%;
     max-width: 1440px;
     margin: 8%;
-    background-color: #a70f8d;
+    background: #a70f8d url(./assets/bolts.png);
+    background-size: 20%;
+    background-position: center;
     border-radius: 50px;
     flex-direction: column;
     justify-content: flex-start;
