@@ -278,27 +278,27 @@ i {
 
 .package {
     width: 24%;
-    border: 4px solid;
-    background-color: ghostwhite;
+    color: #363636;
     border-radius: 10px;
     padding: 2%;
 }
 
 .package:nth-of-type(1) {
-    color: darkslategray;
+    background: linear-gradient(45deg, #b1a7a7, ghostwhite);
+    box-shadow: 0px 0px 20px azure;
 }
 
 .package:nth-of-type(2) {
-    color: gold;
-}
+    background: linear-gradient(45deg, gold, white);
+    box-shadow: 0px 0px 20px gold;}
 
 .package:nth-of-type(3) {
-    color: darkgray;
-}
+    background: linear-gradient(45deg, #817979, white);
+    box-shadow: 0 0 20px aliceblue;}
 
 .package:nth-of-type(4) {
-    color: burlywood;
-}
+    background: linear-gradient(45deg, #d87b03, white);
+    box-shadow: 0 0 20px #d87b03;}
 
 .package-heading {
     display: flex;
