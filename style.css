@@ -354,6 +354,14 @@ i {
     width: 70%;
 }
 
+.signup {
+    width: 100%;
+    justify-content: center;
+}
+
+.join {
+   width: 70%; 
+}
 footer {
     width: 100%;
     padding: 5%;
