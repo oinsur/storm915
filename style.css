@@ -406,7 +406,7 @@ i {
 }
 footer {
     width: 100%;
-    padding: 5%;
+    padding: 5% 5% 0;
     display: flex;
     align-items: center;
     background-color: #661f5a;
@@ -440,4 +440,12 @@ footer a {
     width: 100%;
     text-decoration: none;
     color: white;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: #661f5a;
+    padding: 2% 0;
+    font-style: italic;
 }
