@@ -442,7 +442,7 @@ footer a {
     color: white;
 }
 
-footer p {
+.copyright {
     width: 100%;
     text-align: center;
     background-color: #661f5a;
